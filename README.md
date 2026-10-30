@@ -1,4 +1,4 @@
-# CraftSkin 0.5.2 — Generated Rust Type Fix
+# CraftSkin 0.5.2
 
 CraftSkin is a **Rust source injector** for a separate FilmCraft checkout. It does not edit the official ArtCraft Launcher installation.
 
