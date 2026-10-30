@@ -2,18 +2,6 @@
 
 CraftSkin is a **Rust source injector** for a separate FilmCraft checkout. It does not edit the official ArtCraft Launcher installation.
 
-## Changes from 0.5.1
-
-- Fixed the generated `craftskin_bridge.rs` code to match owned `String` values through `.as_str()` in the transport-alignment and playhead-style matches. This resolves the five `E0308` mismatched-type errors previously emitted by FilmCraft's `ui-egui` crate.
-- Added a regression test to ensure the injector's embedded bridge template keeps both corrected expressions and does not regress to matching `String` directly against `&str` patterns.
-
-## Features retained from 0.5.1
-
-- The theme selector and adjustments appear under **Edit → Preferences → Appearance** in the modified FilmCraft editor.
-- The Tools panel has **no Skin button**. It retains FilmCraft's original tools/icons and can be horizontal or vertical.
-- Whitespace-tolerant matching for compatible source revisions, with component/file-specific diagnostics. Unknown source shapes and repeated matches remain rejected.
-- VEGAS Flow, Resolve Flow, and Graphite Studio presets, with in-editor colors, playhead, and layout geometry.
-
 **Important:** CraftSkin skin changes take effect and save immediately. FilmCraft's native Preferences Cancel button will **not** undo them. This is an independent JSON profile, not a FilmCraft engine preference.
 
 ## Build injector
