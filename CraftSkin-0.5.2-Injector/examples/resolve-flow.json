@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "name": "Resolve Flow / Community",
+  "target": "filmcraft",
+  "colors": {
+    "app_bg": "#151A1E",
+    "header_bg": "#23282D",
+    "panel_bg": "#282E34",
+    "tab_bg": "#313940",
+    "tab_text": "#B3BCC3",
+    "tab_text_active": "#ECECED",
+    "accent": "#ECA15C",
+    "focus": "#ECA15C",
+    "hover": "#3C454D",
+    "text": "#ECECED",
+    "text_dim": "#B3BCC3",
+    "icon": "#B3BCC3",
+    "field_bg": "#20262C",
+    "field_border": "#313940",
+    "separator": "#313940",
+    "tl_bg": "#20262C",
+    "tl_track_bg": "#2B3238",
+    "tl_track_bg_alt": "#20262C",
+    "tl_header_bg": "#282E34",
+    "tl_ruler_bg": "#20262C",
+    "monitor_bg": "#20262C",
+    "playhead": "#ECA15C",
+    "track_target": "#ECA15C",
+    "timecode": "#ECA15C"
+  },
+  "geometry": {
+    "panel_radius": 7.0,
+    "button_radius": 5.0,
+    "panel_gap": 4.0,
+    "header_mode_gap": 20.0,
+    "track_header_width": 248.0,
+    "timeline_tool_gap": 2.0,
+    "transport_gap": 6.0
+  },
+  "controls": {
+    "transport_align": "center",
+    "transport_position": "above_scrub",
+    "timeline_toolbar": "normal",
+    "transport_order": [
+      "playhead.stepBack",
+      "playback.toggle",
+      "playhead.stepForward",
+      "markers.goToIn",
+      "markers.goToOut"
+    ],
+    "timeline_toolbar_position": "above_timecode"
+  }
+}
