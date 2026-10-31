@@ -1,8 +1,6 @@
-# CraftSkin 0.5.2
+# CraftSkin 0.5.3 — FilmCraft v0.15.0 Support Implementation
 
 CraftSkin is a **Rust source injector** for a separate FilmCraft checkout. It does not edit the official ArtCraft Launcher installation.
-
-**Important:** CraftSkin skin changes take effect and save immediately. FilmCraft's native Preferences Cancel button will **not** undo them. This is an independent JSON profile, not a FilmCraft engine preference.
 
 ## Build injector
 

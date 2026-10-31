@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "target": "filmcraft",
+  "name": "Resolve Flow",
+  "colors": {
+    "app_bg": "#181818",
+    "panel_bg": "#292929",
+    "tab_bg": "#242424",
+    "accent": "#CB5558",
+    "playhead": "#E1494D",
+    "clip_video": "#417C9F",
+    "clip_audio": "#4B8867"
+  },
+  "geometry": {
+    "panel_radius": 8,
+    "button_radius": 5,
+    "playhead_width": 1.4,
+    "clip_mix": 0.9
+  },
+  "controls": {
+    "playhead_style": "triangle"
+  }
+}
